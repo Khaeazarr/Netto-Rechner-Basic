@@ -16,7 +16,7 @@ print("--- Professioneller Gehaltsrechner (Simulation) ---")
 monats_brutto = float(input("Dein monatliches Bruttogehalt in Euro: "))
 jahres_brutto = monats_brutto * 12
 
-# Sozialabgaben (Rente, Krankenversicherung etc.) ca. 20%
+# Sozialabgaben (Rente, Krankenversicherung u.s.w.) ca. 20%
 sozialabgaben = jahres_brutto * 0.20
 einkommensteuer = berechne_einkommensteuer(jahres_brutto)
 
